@@ -3,66 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título de la página</title>
+    <title>Menú de Restaurante</title>
+    <style>
+        /* Restablecer márgenes y padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Fondo general y alineación */
+        body {
+            background-color: #fcfcfc;
+        }
+
+        /* Imagen superior */
+        .header-img {
+            width: 100%; /* Ocupa todo el ancho de la pantalla */
+            height: auto; /* Mantiene la relación de aspecto de la imagen */
+            object-fit: cover; /* Hace que la imagen cubra el área sin distorsionar */
+        }
+
+        /* Contenedor principal del menú */
+        .menu-container {
+            padding: 20px;
+            text-align: left;
+            background-color: rgb(29, 29, 29); /* Fondo blanco para el contenido */
+            margin: 0 auto;
+            max-width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+        }
+
+        /* Títulos y texto del menú */
+        h1 {
+            font-size: 2rem;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .menu-item {
+            margin: 15px 0;
+        }
+
+        /* Imagen inferior */
+        .footer-img {
+            width: 100%; /* Ocupa todo el ancho de la pantalla */
+            height: auto; /* Mantiene la relación de aspecto de la imagen */
+            object-fit: cover; /* Hace que la imagen cubra el área sin distorsionar */
+        }
+
+        /* Media Query para pantallas pequeñas (móviles) */
+        @media (max-width: 720px) {
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <p>I told them the cold reality. 2345811111left</p>
 
-<p>“Yes! So, well, maybe you’ll see the results on the news tonight. Since I gave you a preview, this is the end of my broadcast for today. Thank you!”</p>
+    <!-- Imagen superior del menú -->
+    <img src="imagen-superior.jpg" alt="Restaurante" class="header-img">
 
-<p>*</p>
+    <!-- Contenedor del menú con texto -->
+    <div class="menu-container">
+        <h1>Menú del Restaurante</h1>
+        
+        <div class="menu-item">
+            <h2>Entradas</h2>
+            <p>Ensalada fresca, sopa de tomate, bruschetta.</p>
+        </div>
 
-<div class="uno">[?]</div><br>
+        <div class="menu-item">
+            <h2>Platos Principales</h2>
+            <p>Pasta al pesto, lasaña de carne, filete a la parrilla.</p>
+        </div>
 
-<div class="uno">[???]</div><br>
+        <div class="menu-item">
+            <h2>Postres</h2>
+            <p>Tiramisú, pastel de chocolate, helado artesanal.</p>
+        </div>
 
-<div class="uno">[Wait, what are you talking about?]</div>
+        <div class="menu-item">
+            <h2>Bebidas</h2>
+            <p>Cerveza artesanal, vino tinto, jugo natural.</p>
+        </div>
+    </div>
 
-<div class="uno">[How can you do this to make us look forward to it!!!!!]</div>
+    <!-- Imagen inferior del menú -->
+    <img src="imagen-inferior.jpg" alt="Despedida Restaurante" class="footer-img">
 
-<div class="uno">[No, come back, come back]</div>
-
-<div class="uno">[This is not reality!!!!]</div>
-
-<div class="uno">[I’m sorry. It’s okay if the quality is bad, I won’t complain]</div>
-
-<div class="uno">[? I made popcorn. The live??? ended??? Nooo!!!]</div>
-
-<p>*</p>
-
-<p>Yes.</p>
-
-<p>After waving at them, I turned off the broadcast.</p>
-
-<style>
-
-body {
-font-size: 17px;
-font-family: Roboto, Arial;
-color: #cfcfcf;
-background-color: rgb(21, 21, 21);
-}
-
-body, html {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-.uno {
-background-color: #292929;
-    border-radius: 10px;
-    padding: 5px 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    display: inline-block;
-    border: 1px solid rgb(35, 35, 35);
-    width: auto;
-}
-
-span {
-display: block;
-}
-
-</style>
 </body>
 </html>
